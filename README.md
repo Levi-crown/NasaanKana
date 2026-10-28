@@ -6,6 +6,10 @@
 
 Nasaan Kana? is a free Android app for family and friends. It shows the people in your circle on a live map, lets you chat with them, and lets you look back at the places they have visited. There are no ads and no subscriptions, just a simple way to stay connected with the people who matter to you.
 
+It was made in the Philippines, but it isn't only for the Philippines. You can use it anywhere in the world, and your circle can be spread across different countries.
+
+**A note on satellite view:** the satellite map uses free imagery, so it isn't as sharp as the one in paid map apps. Some places may look blurry or hazy, or show older pictures, especially when you zoom in close. This is a limit of the free imagery, not of your phone or your connection. The regular map views are not affected.
+
 ## Privacy
 
 Nasaan Kana? is end-to-end encrypted. Your location, history and messages are encrypted on your phone, so only the people in your circle can see them. History and messages are automatically deleted after 24 hours.
