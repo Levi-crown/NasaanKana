@@ -12,7 +12,7 @@ It was made in the Philippines, but it isn't only for the Philippines. You can u
 
 ## Privacy
 
-Nasaan Kana? is end-to-end encrypted. Your location, history and messages are encrypted on your phone, so only the people in your circle can see them. History and messages are automatically deleted after 24 hours.
+Nasaan Kana? is end-to-end encrypted. Your location, history, messages, photos and videos are encrypted on your phone, so only the people in your circle can see them. History, messages, photos and videos are automatically deleted after 24 hours.
 
 <br>
 
@@ -40,7 +40,7 @@ Nasaan Kana? is end-to-end encrypted. Your location, history and messages are en
     <td width="42%" align="center"><img src="assets/tour-map.webp" width="290" alt="Map screen: everyone in the circle on one map"></td>
     <td width="58%">
       <h3>See everyone, live</h3>
-      <p>Your whole circle on one map. See who's home, who's on the way, how fast they're going and how much battery they have left.</p>
+      <p>Your whole circle on one map. See who's home, who's on the way, how fast they're going, how much battery they have left, and whether they're on Wi-Fi or mobile data.</p>
       <p>Locations go live the moment someone opens the map, so you never see an old spot. If someone loses signal or turns their phone off, the app shows them as offline instead of pretending they're still there.</p>
       <p>Tap anyone to see the weather where they are right now, in °C or °F.</p>
     </td>
@@ -57,7 +57,7 @@ Nasaan Kana? is end-to-end encrypted. Your location, history and messages are en
     <td width="33%" align="center" valign="top">
       <img src="assets/tour-messages.webp" width="230" alt="Messages screen: quick emoji and arrival alerts"><br>
       <b>Messages</b><br>
-      <sub>Chat, quick emoji and SOS. Arrivals are posted for you.</sub>
+      <sub>Chat, photos, short videos, every emoji and SOS. Arrivals are posted for you.</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <img src="assets/tour-place.webp" width="230" alt="Place editor: Home with a 150 m radius"><br>
@@ -99,7 +99,7 @@ Nasaan Kana? is end-to-end encrypted. Your location, history and messages are en
     <td valign="top">
       <img src="assets/icons/clock-countdown.svg" width="44" alt=""><br>
       <b>Gone after 24 hours</b><br>
-      History and messages delete themselves. Accounts that are not used for 30 days are deleted as well.
+      History, messages, photos and videos delete themselves. Accounts that are not used for 30 days are deleted as well.
     </td>
     <td valign="top">
       <img src="assets/icons/ghost.svg" width="44" alt=""><br>
