@@ -35,46 +35,93 @@ Nasaan Kana? is end-to-end encrypted. Your location, history, messages, photos a
 
 ## Take a tour
 
-<table>
-  <tr>
-    <td width="42%" align="center"><img src="assets/tour-map.webp" width="290" alt="Map screen: everyone in the circle on one map"></td>
-    <td width="58%">
-      <h3>See everyone, live</h3>
-      <p>Your whole circle on one map. See who's home, who's on the way, how fast they're going, how much battery they have left, and whether they're on Wi-Fi or mobile data.</p>
-      <p>Locations go live the moment someone opens the map, so you never see an old spot. If someone loses signal or turns their phone off, the app shows them as offline instead of pretending they're still there.</p>
-      <p>Tap anyone to see the weather where they are right now, in °C or °F.</p>
-    </td>
-  </tr>
-</table>
+From creating your account to settings. Every screen comes in light and dark.
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <img src="assets/tour-history.webp" width="230" alt="History screen: stops and trips for the day"><br>
-      <b>History</b><br>
-      <sub>Stops, trips and distance for the last 24 hours.</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <img src="assets/tour-messages.webp" width="230" alt="Messages screen: quick emoji and arrival alerts"><br>
-      <b>Messages</b><br>
-      <sub>Chat, photos, short videos, every emoji and SOS. Arrivals are posted for you.</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <img src="assets/tour-place.webp" width="230" alt="Place editor: Home with a 150 m radius"><br>
-      <b>Places</b><br>
-      <sub>Save places like Home or School and get notified when someone arrives.</sub>
-    </td>
+    <th></th>
+    <th>Light</th>
+    <th>Dark</th>
   </tr>
-</table>
-
-<table>
   <tr>
-    <td width="58%">
-      <h3>Bring your people in</h3>
-      <p>Show a QR code or send a short code. Each code works only once and expires after 24 hours, so only the person you invite can join.</p>
-      <p>You can be in up to 3 circles, with up to 10 people in each.</p>
+    <td width="34%" valign="middle">
+      <h3>1. Welcome</h3>
+      <p>Sign in, or create an account in a minute. It's free and end-to-end encrypted.</p>
     </td>
-    <td width="42%" align="center"><img src="assets/tour-invite.webp" width="290" alt="Invite screen with a QR code"></td>
+    <td width="33%" align="center"><img src="assets/tour-welcome-light.webp" width="230" alt="Welcome screen with Sign in and Create an account (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-welcome-dark.webp" width="230" alt="Welcome screen with Sign in and Create an account (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>2. Create your account</h3>
+      <p>Pick the name your circle will see. Your password also locks your encryption keys, so only you can open them.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-signup-light.webp" width="230" alt="Create account form with name, email and password (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-signup-dark.webp" width="230" alt="Create account form with name, email and password (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>3. Get set up</h3>
+      <p>The app asks only for what it needs (location, activity, notifications and battery) and says why for each one.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-setup-light.webp" width="230" alt="Setup screen listing the permissions (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-setup-dark.webp" width="230" alt="Setup screen listing the permissions (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>4. See everyone, live</h3>
+      <p>Your whole circle on one map: who's home, who's on the way, how fast they're going, their battery, and Wi-Fi or mobile data. Locations go live the moment someone opens the map. If someone loses signal or turns their phone off, they show as offline instead of an old spot.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-map-light.webp" width="230" alt="Map screen with everyone in the circle (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-map-dark.webp" width="230" alt="Map screen with everyone in the circle (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>5. Tap anyone</h3>
+      <p>See their address, the weather where they are (in °C or °F), battery, speed and connection. Get directions, open their history or send a message.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-person-light.webp" width="230" alt="Details for Dad: address, weather, speed, battery and connection (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-person-dark.webp" width="230" alt="Details for Dad: address, weather, speed, battery and connection (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>6. History</h3>
+      <p>Stops, trips and distance for the last 24 hours, by car, bike or on foot.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-history-light.webp" width="230" alt="History screen with the day's stops and trips (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-history-dark.webp" width="230" alt="History screen with the day's stops and trips (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>7. Messages</h3>
+      <p>Chat, photos, short videos and SOS. Tap the smiley in the message box for every emoji, right in your message. Arrivals are posted for you.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-messages-light.webp" width="230" alt="Messages screen with the emoji panel open (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-messages-dark.webp" width="230" alt="Messages screen with the emoji panel open (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>8. Places</h3>
+      <p>Save places like Home or School and get notified when someone arrives or leaves.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-places-light.webp" width="230" alt="Place editor: Home with a 150 m radius (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-places-dark.webp" width="230" alt="Place editor: Home with a 150 m radius (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>9. Invite your people</h3>
+      <p>Show a QR code or send a short code. Each code works once and expires after 24 hours. You can be in up to 3 circles, with up to 10 people in each.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-invite-light.webp" width="230" alt="Invite screen with a QR code (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-invite-dark.webp" width="230" alt="Invite screen with a QR code (dark)"></td>
+  </tr>
+  <tr>
+    <td width="34%" valign="middle">
+      <h3>10. Settings</h3>
+      <p>Edit your profile and photo, switch between light and dark, pick a map style, turn on ghost mode or app lock, and update the app.</p>
+    </td>
+    <td width="33%" align="center"><img src="assets/tour-settings-light.webp" width="230" alt="Settings screen (light)"></td>
+    <td width="33%" align="center"><img src="assets/tour-settings-dark.webp" width="230" alt="Settings screen (dark)"></td>
   </tr>
 </table>
 
@@ -135,7 +182,7 @@ Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKan
 | **Satellite imagery** | © [Esri](https://www.esri.com), Maxar and the GIS user community |
 | **Weather** | [Open-Meteo.com](https://open-meteo.com) (CC BY 4.0) |
 | **Map engine** | [MapLibre Native](https://maplibre.org) (BSD-2-Clause) |
-| **Emoji** | [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT) |
+| **Emoji** | Apple emoji artwork © Apple Inc., from [emoji-data](https://github.com/iamcal/emoji-data) |
 | **Icons** | [Phosphor Icons](https://phosphoricons.com) (MIT) |
 | **QR codes** | [ZXing](https://github.com/zxing/zxing) (Apache 2.0) |
 
