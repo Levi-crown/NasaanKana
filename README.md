@@ -8,7 +8,7 @@ Nasaan Kana? is a free Android app for family and friends. It shows the people i
 
 It was made in the Philippines, but it isn't only for the Philippines. You can use it anywhere in the world, and your circle can be spread across different countries.
 
-**A note on satellite view:** the satellite map uses free imagery, so it isn't as sharp as the one in paid map apps. Some places may look blurry or hazy, or show older pictures, especially when you zoom in close. This is a limit of the free imagery, not of your phone or your connection. The regular map views are not affected.
+**A note on satellite view:** only the Satellite map is affected by this. It uses free imagery, so it isn't as sharp as the one in paid map apps. Some places may look blurry or hazy, or show older pictures, especially when you zoom in close. This is a limit of the free imagery, not of your phone or your connection. The Default and Streets maps are always sharp.
 
 ## Privacy
 
@@ -41,7 +41,8 @@ Nasaan Kana? is end-to-end encrypted. Your location, history and messages are en
     <td width="58%">
       <h3>See everyone, live</h3>
       <p>Your whole circle on one map. See who's home, who's on the way, how fast they're going and how much battery they have left.</p>
-      <p>Locations go live the moment someone opens the map, so you never see an old spot.</p>
+      <p>Locations go live the moment someone opens the map, so you never see an old spot. If someone loses signal or turns their phone off, the app shows them as offline instead of pretending they're still there.</p>
+      <p>Tap anyone to see the weather where they are right now, in °C or °F.</p>
     </td>
   </tr>
 </table>
@@ -132,6 +133,7 @@ Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKan
 | **Map data** | © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL) |
 | **Map tiles** | [OpenFreeMap](https://openfreemap.org) |
 | **Satellite imagery** | © [Esri](https://www.esri.com), Maxar and the GIS user community |
+| **Weather** | [Open-Meteo.com](https://open-meteo.com) (CC BY 4.0) |
 | **Map engine** | [MapLibre Native](https://maplibre.org) (BSD-2-Clause) |
 | **Emoji** | [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT) |
 | **Icons** | [Phosphor Icons](https://phosphoricons.com) (MIT) |
@@ -142,7 +144,6 @@ Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKan
 <p>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
   <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase">
   <img src="https://img.shields.io/badge/Google%20Play%20services-34A853?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play services">
   <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white" alt="OpenStreetMap">
 </p>
