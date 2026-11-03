@@ -172,6 +172,15 @@ Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKan
 
 **Forgot your password?** Resetting it clears your data, so you'll need a new invite to join your circles again.
 
+## Contact me
+
+Found a bug, have an idea to make the app better, or want something added in a future update? Message me on Telegram or Facebook. Just tap a button below.
+
+<p align="center">
+  <a href="https://t.me/hachi0427"><img src="https://img.shields.io/badge/Telegram-Tap%20to%20chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Tap to chat on Telegram"></a>
+  <a href="https://web.facebook.com/chris.benedict.00"><img src="https://img.shields.io/badge/Facebook-Tap%20to%20chat-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Tap to chat on Facebook"></a>
+</p>
+
 ## Credits
 
 | | |
