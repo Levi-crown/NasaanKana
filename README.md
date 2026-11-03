@@ -24,6 +24,8 @@ Nasaan Kana? is end-to-end encrypted. Your location, history, messages, photos a
   <a href="https://github.com/Levi-crown/NasaanKana/releases/latest"><img src="https://img.shields.io/badge/Download%20APK-9b5cf6?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"></a>
 </p>
 
+<p align="center"><b>Always download the latest version.</b></p>
+
 <p align="center">
   <a href="https://github.com/Levi-crown/NasaanKana/releases/latest"><img src="https://img.shields.io/github/v/release/Levi-crown/NasaanKana?style=flat-square&cacheSeconds=1800&label=version&color=9b5cf6&labelColor=1a1325" alt="Latest version"></a>
   <img src="https://img.shields.io/badge/Android-8.0%2B-9b5cf6?style=flat-square&logo=android&logoColor=white&labelColor=1a1325" alt="Android 8.0 and up">
@@ -161,6 +163,9 @@ No ads, no tracking, no subscriptions.
 ## Download
 
 Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKana/releases/latest)**.
+
+> [!IMPORTANT]
+> **Make sure you download the latest version.** Pick the release marked **Latest**, not an older one. Older versions miss fixes and new features, and some things, like seeing who has read your message or who is offline, only work right when everyone in your circle is up to date. When the app tells you there's a new version, update right away.
 
 | File | Pick this if |
 | :--- | :--- |
