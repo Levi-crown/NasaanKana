@@ -1,0 +1,68 @@
+Nasaan Kana? - Proprietary License
+
+Copyright (c) 2026 Levi Crown. All rights reserved.
+
+This license covers the Nasaan Kana? Android application, including its source code, compiled
+application packages (APK and Android App Bundle), design, graphics, text, name and logo
+(together, "the Software").
+
+1. Ownership
+
+   The Software is owned by Levi Crown and is protected by copyright and other intellectual
+   property laws. It is licensed, not sold. No ownership rights are transferred to you.
+
+2. What you may do
+
+   You may download the official Software from Google Play or from the official releases at
+   https://github.com/Levi-crown/NasaanKana/releases, install it on devices you own or control,
+   and use it for your own personal, non-commercial purposes, in line with the Terms of Use.
+
+3. What you may not do
+
+   Unless Levi Crown gives you written permission, you may not:
+
+   a. copy, reproduce, republish, re-upload or redistribute the Software, in whole or in part,
+      including on other app stores or websites;
+   b. modify, translate, adapt, re-sign or create derivative works of the Software;
+   c. decompile, disassemble, reverse engineer, or try to extract the source code of the
+      Software, except where applicable law expressly allows it despite this restriction;
+   d. sell, rent, lease, sublicense or otherwise make the Software available to others for any
+      commercial purpose;
+   e. remove, change or hide any copyright, trademark or other notices in the Software;
+   f. get around, disable or interfere with any security, encryption, integrity or anti-tamper
+      feature of the Software;
+   g. use the name "Nasaan Kana?", its logo or its look to promote another product.
+
+4. Third-party components
+
+   The Software includes components owned by others, which are licensed under their own terms
+   and are not covered by this license. They include AndroidX and Jetpack Compose (Apache 2.0),
+   Kotlin and Kotlin Coroutines (Apache 2.0), Firebase SDKs (Apache 2.0), MapLibre Native
+   (BSD-2-Clause), OkHttp (Apache 2.0), AndroidX Media3 (Apache 2.0), ZXing (Apache 2.0),
+   Phosphor Icons (MIT), map data (c) OpenStreetMap contributors (ODbL), map tiles by OpenFreeMap,
+   satellite imagery (c) Esri and Maxar, weather data by Open-Meteo.com (CC BY 4.0), and emoji
+   artwork (c) Apple Inc. Kuromi is a character (c) Sanrio Co., Ltd., shown as fan art; the
+   Software is not affiliated with, sponsored or endorsed by Sanrio.
+
+5. Termination
+
+   This license ends automatically if you break any of its terms. When it ends, you must stop
+   using the Software and delete all copies you have.
+
+6. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NON-INFRINGEMENT.
+
+7. Limitation of liability
+
+   IN NO EVENT SHALL LEVI CROWN BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE SOFTWARE, TO THE FULLEST EXTENT ALLOWED BY LAW.
+
+8. Governing law
+
+   This license is governed by the laws of the Republic of the Philippines.
+
+For permission requests, contact Levi Crown through https://github.com/Levi-crown.

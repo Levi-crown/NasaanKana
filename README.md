@@ -202,6 +202,10 @@ Get the newest version from **[Releases](https://github.com/Levi-crown/NasaanKan
 
 Plus AndroidX (WorkManager, DataStore, Navigation, Biometric, Lifecycle) and Kotlin Coroutines.
 
+## Legal
+
+Nasaan Kana? is free to use, but it is not open source. See the [License](LICENSE), [Privacy Policy](PRIVACY.md) and [Terms of Use](TERMS.md).
+
 ## Contact me
 
 Found a bug, have an idea to make the app better, or want something added in a future update? Message me on Telegram or Facebook. Just tap a button below.
