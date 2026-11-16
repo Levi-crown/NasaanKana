@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="Buy me a coffee. Nasaan Kana? is free, with no ads and no subscriptions. If it helps your family, a coffee keeps it going.">
+  <style>
+    text { font-family: 'Plus Jakarta Sans','Segoe UI','SF Pro Display',Roboto,'Helvetica Neue',Arial,sans-serif; }
+    .steam { fill: none; stroke: #C9A2FF; stroke-width: 2.4; stroke-linecap: round; opacity: 0;
+      animation: steam 3s ease-in-out infinite; }
+    .s2 { animation-delay: .5s; } .s3 { animation-delay: 1s; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(4px); } 35% { opacity: .9; }
+      100% { opacity: 0; transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) { .steam { animation: none; opacity: .8; } }
+  </style>
+  <defs>
+    <radialGradient id="glow" cx="12%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#9B5CF6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#9B5CF6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x=".5" y=".5" width="759" height="239" rx="28" fill="#120D1F" stroke="#3B2A63"/>
+  <rect x=".5" y=".5" width="759" height="239" rx="28" fill="url(#glow)"/>
+
+  <!-- Cup, in the same tile style as the README's icons -->
+  <svg x="40" y="86" width="100" height="100" viewBox="0 0 56 56">
+    <rect x=".5" y=".5" width="55" height="55" rx="15" fill="#1A1325" stroke="#3B2A63"/>
+    <path class="steam" d="M21 20c-2-2.5 2-4 0-7"/>
+    <path class="steam s2" d="M27 20c-2-2.5 2-4 0-7"/>
+    <path class="steam s3" d="M33 20c-2-2.5 2-4 0-7"/>
+    <path d="M15 24h24v7a12 12 0 0 1-12 12a12 12 0 0 1-12-12z" fill="#C9A2FF" fill-opacity=".3" stroke="#C9A2FF" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M39 27h2.5a4.5 4.5 0 0 1 0 9H38" fill="none" stroke="#C9A2FF" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M12 47h30" stroke="#C9A2FF" stroke-width="2.4" stroke-linecap="round"/>
+  </svg>
+
+  <text x="172" y="82" font-size="30" font-weight="800" fill="#F5F0FF">Buy me a coffee</text>
+  <text x="172" y="116" font-size="17" fill="#B9A8D9">Nasaan Kana? is free, with no ads and no subscriptions.</text>
+  <text x="172" y="141" font-size="17" fill="#B9A8D9">If it helps your family, a coffee keeps it going. Thank you!</text>
+
+  <!-- Button, in Buy Me a Coffee's own yellow -->
+  <rect x="172" y="164" width="236" height="48" rx="24" fill="#FFDD00"/>
+  <svg x="192" y="174" width="28" height="28" viewBox="0 0 56 56">
+    <path d="M15 22h24v8a12 12 0 0 1-12 12a12 12 0 0 1-12-12z" fill="#0D0C22"/>
+    <path d="M39 25h2.5a4.5 4.5 0 0 1 0 9H38" fill="none" stroke="#0D0C22" stroke-width="4" stroke-linecap="round"/>
+    <path d="M12 47h30" stroke="#0D0C22" stroke-width="4" stroke-linecap="round"/>
+  </svg>
+  <text x="226" y="195" font-size="18" font-weight="800" fill="#0D0C22">Buy me a coffee</text>
+</svg>

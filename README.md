@@ -215,6 +215,15 @@ Found a bug, have an idea to make the app better, or want something added in a f
   <a href="https://web.facebook.com/chris.benedict.00"><img src="https://img.shields.io/badge/Facebook-Tap%20to%20chat-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Tap to chat on Facebook"></a>
 </p>
 
+<p align="center">
+  <a href="https://buymeacoffee.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/coffee-dark.svg">
+      <img src="assets/coffee-light.svg" width="560" alt="Buy me a coffee. Nasaan Kana? is free, with no ads and no subscriptions. If it helps your family, a coffee keeps it going.">
+    </picture>
+  </a>
+</p>
+
 <br>
 
 <p align="center">
