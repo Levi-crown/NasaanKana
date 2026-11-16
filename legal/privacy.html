@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Nasaan Kana?</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<main>
+<header>
+  <p class="kind">Nasaan Kana?</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: November 16, 2026</p>
+</header>
+
+<p>This Privacy Policy describes how the Nasaan Kana? mobile application (the "App") handles personal information. The App is developed and operated by Levi Crown ("we", "us" or "our"). It applies to the App as distributed through Google Play and through the official releases on GitHub.</p>
+
+<div class="summary">
+  <p><strong>Summary.</strong> Your location, location history, places, messages, photos, videos, name and profile photo are encrypted on your device before they are uploaded, and only members of your circle hold the keys needed to read them. We cannot read this content, and neither can Google, which stores it in encrypted form. The App contains no advertising, analytics or tracking tools, and we do not sell personal information.</p>
+</div>
+
+<h2>1. Information We Collect</h2>
+
+<div class="item">
+  <h3>Account information</h3>
+  <p>Your email address and password are used to create your account and sign you in through Google Firebase Authentication. Your password is processed by Firebase and is never visible to us. A one-way hash of your email address is also stored so that the App can tell whether an account exists or has been deleted.</p>
+  <p class="access">Accessible to: Google Firebase, for sign-in only.</p>
+</div>
+
+<div class="item">
+  <h3>Profile</h3>
+  <p>The name and profile photo you choose, so that members of your circle can recognize you.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Precise location, including in the background</h3>
+  <p>Your location is shared with your circle, including while the App is closed, because this is the App's core function. You can pause sharing at any time with Ghost mode or turn it off in Settings.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Location history</h3>
+  <p>The places you visited and the trips you made during the last 24 hours, shown to your circle.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Device status</h3>
+  <p>Your activity (for example walking or driving, detected by your device's motion sensors), speed, battery level, connection type and Wi-Fi network name, shown to your circle next to your location.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Places</h3>
+  <p>Places you save, such as Home or School, used to send arrival and departure alerts.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Messages and media</h3>
+  <p>Messages, photos, videos, emoji and SOS alerts you send to your circle.</p>
+  <p class="access">Accessible to: members of your circle only (end-to-end encrypted).</p>
+</div>
+
+<div class="item">
+  <h3>Delivery receipts and typing status</h3>
+  <p>Times at which messages were delivered and seen, and whether someone is typing. These records never contain message content.</p>
+  <p class="access">Accessible to: members of your circle.</p>
+</div>
+
+<div class="item">
+  <h3>Emergency contact and hotline (optional)</h3>
+  <p>If you add an emergency contact or an emergency hotline in Settings, the App calls it when you send an SOS. Both are stored only on your device and are erased when you sign out. Before a personal number is saved, it is confirmed with a one-time code sent to it by SMS through Google Firebase Authentication, so that the number is valid and its owner agrees. For this purpose the number is sent to Google once; the temporary record this creates is deleted immediately after the check. To prevent abuse of SMS verification, Google may use reCAPTCHA or Play Integrity checks. Hotlines, such as 911 or 112, are not verified.</p>
+  <p class="access">Accessible to: stored on your device only.</p>
+</div>
+
+<div class="item">
+  <h3>Technical information</h3>
+  <p>Information such as your IP address and basic device details is received by the services the App connects to, as needed for them to operate (see Section 5). We do not collect it ourselves.</p>
+  <p class="access">Accessible to: the service that receives the request.</p>
+</div>
+
+<p>The App does not use advertising, analytics, crash-reporting or tracking tools. It does not access your contacts, call log, text messages or files.</p>
+
+<h2>2. Device Permissions</h2>
+<ul>
+  <li><strong>Location, including background location:</strong> to share your location with your circle and to send arrival alerts.</li>
+  <li><strong>Physical activity:</strong> to show whether you are walking, cycling, driving or on a train.</li>
+  <li><strong>Notifications:</strong> to alert you to SOS messages, arrivals and new messages.</li>
+  <li><strong>Phone calls (optional):</strong> requested only if you add an emergency contact or hotline, and used only to call that number when you send an SOS. If you decline, your phone app opens with the number entered instead.</li>
+  <li><strong>Accessibility service (optional):</strong> used only by Quick SOS, if you turn it on, so that holding the volume-down button sends an SOS while the App is closed. It observes the volume-down button alone. It does not read your screen or what you type, and it collects and transmits nothing.</li>
+  <li><strong>Photos and videos:</strong> read only when you select an item to send.</li>
+  <li><strong>Camera and microphone:</strong> used only for voice and video calls, and requested only when you place or answer a call.</li>
+  <li><strong>Battery optimization exemption:</strong> so that your device does not stop location sharing in the background.</li>
+</ul>
+<p>You can withdraw any permission at any time in your device's settings. Some features may then stop working.</p>
+
+<h2>3. How We Use Information</h2>
+<p>Information is used only to provide the App's features: sharing location and status with your circle, keeping a 24-hour history, sending alerts and messages, placing emergency calls you have set up, and keeping your account secure. We do not use your information for advertising, profiling or any purpose unrelated to these features.</p>
+
+<h2>4. How Information Is Protected</h2>
+<ul>
+  <li><strong>End-to-end encryption.</strong> Each circle has its own secret key. Sensitive content is encrypted on your device with AES-256-GCM before it is uploaded, so the server stores only encrypted data.</li>
+  <li><strong>Key protection.</strong> Your circle keys are backed up to your account sealed with a key derived from your password, and protected on your device by the Android Keystore. If you reset a forgotten password, previous keys can no longer be opened and you will need a new invitation to rejoin your circles.</li>
+  <li><strong>Chat history on your device.</strong> Stored in the App's private storage, encrypted with a key specific to your account, and excluded from device backups and transfers.</li>
+  <li><strong>Invitations.</strong> Invite codes can be used once and expire after 24 hours.</li>
+  <li><strong>Access rules.</strong> Server rules allow only members of a circle to read that circle's data, and only you can change your own data.</li>
+</ul>
+
+<h2>5. Third-Party Services</h2>
+<table>
+  <thead><tr><th>Service</th><th>Information received and when</th></tr></thead>
+  <tbody>
+    <tr><td>Google Firebase (Authentication, Cloud Firestore)</td><td>Your email address for sign-in, the encrypted data described above, a phone number being verified, and technical information needed to operate the service. Used at all times, as this is where the App stores data.</td></tr>
+    <tr><td>OpenFreeMap and Esri (map images)</td><td>Requests for map images of the area on screen, and your IP address, when you view a map.</td></tr>
+    <tr><td>TomTom (live traffic)</td><td>Requests for traffic images of the area on screen, and your IP address, only while you have traffic turned on.</td></tr>
+    <tr><td>Open-Meteo (weather)</td><td>A location rounded to a grid of about 5 km, never your exact position, when weather is shown.</td></tr>
+    <tr><td>Android Geocoder (address lookup)</td><td>Coordinates, to display a street address. Provided by your device's system software.</td></tr>
+    <tr><td>GitHub (GitHub release only)</td><td>A request to check for a newer version, about twice a day and when you check for updates.</td></tr>
+  </tbody>
+</table>
+<p>Each service processes information under its own privacy policy. For Google Firebase, see <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+<p>We do not sell personal information and do not share it with anyone else, except where required by law. Because content is end-to-end encrypted, we are unable to disclose it.</p>
+
+<h2>6. Data Retention</h2>
+<table>
+  <thead><tr><th>Information</th><th>Retention</th></tr></thead>
+  <tbody>
+    <tr><td>Live location, location history, messages, photos, videos, receipts and invitations</td><td>24 hours on the server, then deleted automatically.</td></tr>
+    <tr><td>Typing status and viewing indicators</td><td>1 hour.</td></tr>
+    <tr><td>Chat history on your device</td><td>Until you delete it, sign out, leave the circle or are removed from it. Only the newest 5,000 messages per circle are kept. Full-size photos and videos are not kept; small previews are.</td></tr>
+    <tr><td>Profile, places, circle membership and keys</td><td>Until 30 days after you last open the App, then deleted automatically.</td></tr>
+    <tr><td>Emergency contact and hotline</td><td>On your device until you remove them or sign out.</td></tr>
+    <tr><td>Sign-in record in Firebase Authentication</td><td>Until your account is deleted.</td></tr>
+  </tbody>
+</table>
+
+<h2>7. Your Choices and Rights</h2>
+<ul>
+  <li><strong>Pause or stop sharing:</strong> use Ghost mode or Battery saver, or turn sharing off in Settings. You may also withdraw the location permission in your device's settings.</li>
+  <li><strong>Delete a message:</strong> press and hold it and choose Delete. Deleting for everyone is available within 24 hours of sending.</li>
+  <li><strong>Leave a circle:</strong> your membership and location in that circle, and that circle's chat history on your device, are deleted.</li>
+  <li><strong>Sign out:</strong> everything the App stored on your device is erased, including chat history, keys and emergency numbers.</li>
+  <li><strong>Delete your account in the App:</strong> open Settings and choose Delete account. After two confirmations and your password, your account is deleted immediately together with your sign-in, profile, keys and everything you shared in your circles (messages, photos, videos, location history, live location, receipts and memberships). Circles and places shared with others, and content posted by other members, remain available to them.</li>
+  <li><strong>Automatic deletion:</strong> an account that is not opened for 30 days is deleted with its data.</li>
+  <li><strong>Deletion on request:</strong> contact us from the email address on your account. We will delete the account and all associated data within 30 days and confirm when this is complete.</li>
+</ul>
+<p>Depending on where you live, you may have additional rights, such as the right to access, correct or object to the processing of your personal information. To exercise them, contact us using the details in Section 11.</p>
+
+<h2>8. Children</h2>
+<p>The App is not directed to children under 13 years of age, and we do not knowingly collect personal information from them. If you believe a child under 13 has created an account, contact us and we will delete it.</p>
+
+<h2>9. International Transfers</h2>
+<p>The services listed in Section 5 may store and process information on servers located outside your country. Content shared through the App remains end-to-end encrypted wherever it is stored.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. The effective date above will change when we do. If a change materially affects how your information is used, we will also notify you in the App.</p>
+
+<h2>11. Contact</h2>
+<p>For questions about this Privacy Policy or to request deletion of your data, contact Levi Crown:</p>
+<ul>
+  <li>Telegram: <a href="https://t.me/hachi0427">t.me/hachi0427</a></li>
+  <li>Facebook: <a href="https://web.facebook.com/chris.benedict.00">facebook.com/chris.benedict.00</a></li>
+  <li>GitHub: <a href="https://github.com/Levi-crown/NasaanKana">github.com/Levi-crown/NasaanKana</a></li>
+</ul>
+
+<footer>
+  <p>See also the <a href="terms.html">Terms of Use</a> and the <a href="license.html">License</a>.</p>
+  <p>© 2026 Levi Crown. All rights reserved.</p>
+</footer>
+</main>
+</body>
+</html>

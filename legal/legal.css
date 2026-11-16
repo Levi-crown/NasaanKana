@@ -1,0 +1,55 @@
+/* Nasaan Kana? legal documents. Light by default; the app sets data-theme="dark" to match its theme. */
+:root {
+  --bg: #F7F4FE;
+  --text: #17121F;
+  --muted: #5A526B;
+  --line: #E3DCF0;
+  --accent: #5B2BC4;
+  --panel: #FFFFFF;
+}
+html[data-theme="dark"] {
+  --bg: #120C1F;
+  --text: #EFEAF8;
+  --muted: #ADA3C2;
+  --line: #2B2340;
+  --accent: #B79CFF;
+  --panel: #1A1329;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+}
+main { max-width: 720px; margin: 0 auto; padding: 8px 20px 40px; }
+header { padding: 16px 0 18px; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+.kind { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 4px 0 6px; font-size: 26px; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; }
+.meta { margin: 0; font-size: 13px; color: var(--muted); }
+h2 { margin: 30px 0 10px; font-size: 17px; line-height: 1.35; font-weight: 700; }
+h3 { margin: 0 0 4px; font-size: 15px; font-weight: 600; }
+p { margin: 0 0 12px; }
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 8px; }
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+strong { font-weight: 600; }
+.summary { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 4px 0 8px; }
+.summary p { margin: 0; }
+.item { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.item:last-of-type { border-bottom: 0; }
+.item p { margin-bottom: 6px; }
+.access { font-size: 13px; color: var(--muted); margin-bottom: 0; }
+table { width: 100%; border-collapse: collapse; margin: 6px 0 14px; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 8px 10px 0; border-bottom: 1px solid var(--line); }
+th { font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+td:first-child { width: 38%; font-weight: 500; }
+.caps { font-size: 13.5px; letter-spacing: 0.01em; }
+footer { margin-top: 32px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+footer p { margin-bottom: 6px; }
+/* Inside the app the screen header already shows the title. */
+html[data-embedded] header .kind, html[data-embedded] header h1 { display: none; }
+html[data-embedded] header { padding-top: 4px; }

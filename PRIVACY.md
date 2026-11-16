@@ -17,10 +17,11 @@ Nasaan Kana? ("the app") is a free location sharing and chat app for families an
 | **Activity, speed, battery level, connection type and Wi-Fi network name** | Shown to your circle next to your location (for example "walking", "charging", "on Wi-Fi"). Activity comes from your phone's motion sensors. | Only your circle (end-to-end encrypted) |
 | **Places** (such as Home or School) | To send arrival and leave alerts. | Only your circle (end-to-end encrypted) |
 | **Messages, photos, videos, emoji and SOS alerts** | To chat with your circle. | Only your circle (end-to-end encrypted) |
+| **Emergency number** (optional) | If you add one in Settings, the app calls it when you send an SOS. You can leave it empty. A personal number is checked first with a one-time code sent to it by SMS, so it is real and its owner agrees. | Stored only on your phone and wiped when you sign out. To send the code, the number is passed once to Google Firebase (Authentication), and the temporary record that creates is deleted right away |
 | **Delivery and "seen" receipts, "typing…" status** | To show who got and read a message. These contain only times, never message content. | Your circle |
 | **Technical data** (such as IP address and device information) | Needed by the services the app connects to in order to work (see section 3). We don't collect it ourselves. | The service that receives the request |
 
-The app does **not** use advertising, analytics, crash reporting or tracking tools, and it doesn't access your contacts, call logs, SMS or files. Photos and videos are only read when you pick one to send.
+The app does **not** use advertising, analytics, crash reporting or tracking tools, and it doesn't access your contacts, call logs, SMS or files. The phone call permission is asked for only if you add an emergency number, and is used only to call that number when you send an SOS; if you don't allow it, your phone app opens with the number ready instead. Quick SOS can also use an Android accessibility service, only if you turn it on: it watches the volume-down button alone, so holding it sends an SOS while the app is closed. It doesn't read your screen or what you type, and it collects and sends nothing. Photos and videos are only read when you pick one to send.
 
 ## 2. How your data is protected
 
@@ -36,6 +37,7 @@ The app does **not** use advertising, analytics, crash reporting or tracking too
 | :--- | :--- | :--- |
 | **Google Firebase** (Authentication and Cloud Firestore) | Your email for sign-in; the encrypted data above; and technical data needed to run the service | Always (this is where the app stores data) |
 | **OpenFreeMap** and **Esri** (map images) | Requests for map images of the area on screen, and your IP address | When you view the map |
+| **TomTom** (live traffic) | Requests for traffic images of the area on screen, and your IP address | Only while you have traffic turned on |
 | **Open-Meteo** (weather) | An approximate location (rounded, not your exact position) | When you view someone's weather |
 | **Your phone's address lookup** (Android Geocoder) | Coordinates, to show a street address. It is provided by your phone's system software. | When an address is shown |
 | **GitHub** (APK version from GitHub only) | A request to check for a new app version | About twice a day, and when you check for updates |
@@ -61,6 +63,7 @@ We do not sell your data, and we do not share it with anyone else except where t
 - **Leave a circle:** your membership and location in that circle are deleted, and so is that circle's chat history on your phone.
 - **Sign out:** everything the app stored on your phone is wiped, including your chat history and keys.
 - **Delete your account:**
+  - **In the app:** open **Settings** and tap **Delete account** at the bottom. You confirm, type your password, and confirm once more. Your account and the data listed below are deleted right away, and you're signed out: your login, profile, keys, and everything you put in your circles (messages, photos, videos, location history, live location, receipts and your membership). Circles and saved places you share with others, and what other members posted, stay for them.
   - **Automatic:** an account that isn't opened for 30 days is deleted with its data.
   - **On request:** contact us (see below) from the email address on your account and ask for your account to be deleted. We'll delete your account and all data linked to it within 30 days and confirm when it's done.
 
